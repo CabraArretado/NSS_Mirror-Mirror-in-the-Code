@@ -1,0 +1,28 @@
+article {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.original {
+
+}
+
+.mirrors {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.mirror {
+    width: 160px;
+    min-height: 18px;
+    margin: 10px;
+    flex-basis: 45%;
+}
+
+#mirror1 {
+    border: 2px solid red;
+}
+#mirror2 {
+    border: 2px solid blue;
+}
